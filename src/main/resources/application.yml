@@ -86,6 +86,7 @@ springdoc:
   override-with-generic-response: true
 server:
   port: 9090
+  forward-headers-strategy: native
   error:
     whitelabel:
       enabled: false
